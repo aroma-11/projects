@@ -1,0 +1,12 @@
+*{
+    font-family: 'Times New Roman';
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+}
+p{
+    color: rgb(212, 22, 123);
+
+}

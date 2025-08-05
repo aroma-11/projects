@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* border-style: solid;
+    border-color: rgb(117, 14, 227);
+    border-width: 20px; */
+    border: 20px solid rgb(117,14,227);
+}
+h1{
+    height: 100px;
+    width: 200px;
+    background-color: chocolate;
+    border-style: dotted;
+    border-color: crimson;
+    border-width: 30px;
+    text-align: center;         /* here if you use text allignment then text will aling in the specific width and height that we have given.*/
+}

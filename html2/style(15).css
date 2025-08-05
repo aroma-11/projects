@@ -1,0 +1,9 @@
+div{
+    background-color: pink;
+    display: inline;                    /* div which is block acts as inline due to display property*/
+}
+
+button{
+    background-color: lightblue;          /* button which is inline acts an block due to display property*/
+    display: block;
+}

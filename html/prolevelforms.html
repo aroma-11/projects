@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating forms</title>
+</head>
+<body>
+    <header> <h1> creating forms</h1></header>
+    <main>
+    <form action="/action.php">        <!--used to check the information entered revalent aur not-->
+        <input type="text"  placeholder="enter name">
+        <br>
+        <br>
+        <input type="text"  placeholder="enter roll number">
+        <br>
+        <br>
+        <h5>select class</h5>
+        <br>
+        <input type="radio"  value="class XI"  name="class">class XI         <!--here if we click on text outpot then it will not got clicked but only work if we click on tha circle option portion of text choices-->
+        <input type="radio"  value="class XII"  name="class">class XII
+        <br>
+        <br>
+        <h5>select section</h5>
+        <br>
+        <label for="101">             <!--here on clicking on text option will also got selected-->
+            <input type="radio"  value="section A"  name="section"  id="101">section A
+        </label>
+        <label for="102">
+
+            <input type="radio"  name="section"   id="102">section B
+                      
+        </label>
+        <br>
+        <br>
+        <h5> select favourite subject</h5>
+        <br>
+        <label for="maths">
+            <input type="checkbox"  value="maths" name="subject" id="101">maths    <!--checkbox used to select multiple options-->
+
+        </label>
+        <br>
+        <label for="english">
+            <input type="checkbox"  value="english"  name="subject"  id="102">english
+        </label>
+        <br>
+        <label for="data structure">
+            <input type="checkbox"  value="data structure"  name="subject" id="103">data structure
+        </label>
+        <br>
+        <label for="computer science">
+            <input type="checkbox"  value="computer science"  name="subject"  id="104">computer science
+
+        </label>
+
+    </main>
+    <br>
+    <br>
+    select your city 
+    <select name="city">
+        <option value="delhi">delhi</option>
+        <option value="mumbai">mumbai</option>
+        <option value="banglore">banglore</option>                 <!--this is used to creat dropdown-->
+        <option value="pune">pune</option>
+    </select>
+    <br>
+    <br>
+    <textarea name="feedback"  id="101"  placeholder="please give your valuable feedback"  rows="5">feedback</textarea>                                <!--used to creat a small space to take feedback-->
+    <br>
+    <input type="submit"  value="submit">         <!--used to creat a submit button-->
+ </form>
+    <footer>
+
+    </footer>
+</body>
+</html>
